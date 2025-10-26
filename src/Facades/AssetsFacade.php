@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Assets\Facades;
+namespace Tiryaq\Assets\Facades;
 
-use Botble\Assets\Assets;
+use Tiryaq\Assets\Assets;
 use Illuminate\Support\Facades\Facade;
 
 /**

@@ -1,18 +1,18 @@
 {
-    "name": "botble/assets",
+    "name": "tiryaq/assets",
     "description": "Laravel assets management",
     "license": "MIT",
     "keywords": [
-        "botble",
-        "botble cms",
-        "botble platform",
-        "botble assets"
+        "tiryaq",
+        "tiryaq cms",
+        "tiryaq platform",
+        "tiryaq assets"
     ],
-    "homepage": "https://botble.com",
+    "homepage": "https://tiryaq.co",
     "authors": [
         {
-            "name": "Sang Nguyen",
-            "email": "sangnguyenplus@gmail.com"
+            "name": "tiryaq",
+            "email": "info@tiryaq.co"
         }
     ],
     "require": {
@@ -25,21 +25,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Botble\\Assets\\": "src"
+            "Tiryaq\\Assets\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Botble\\Assets\\Tests\\": "tests"
+            "Tiryaq\\Assets\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Botble\\Assets\\Providers\\AssetsServiceProvider"
+                "Tiryaq\\Assets\\Providers\\AssetsServiceProvider"
             ],
             "aliases": {
-                "Assets": "Botble\\Assets\\Facades\\AssetsFacade"
+                "Assets": "Tiryaq\\Assets\\Facades\\AssetsFacade"
             }
         }
     },

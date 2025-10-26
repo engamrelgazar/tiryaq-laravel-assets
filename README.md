@@ -1,16 +1,16 @@
 # Laravel Assets management
 
-[![Latest Version](https://img.shields.io/github/release/botble/laravel-assets.svg?style=flat-square)](https://github.com/botble/laravel-assets/releases)
+[![Latest Version](https://img.shields.io/github/release/tiryaq/laravel-assets.svg?style=flat-square)](https://github.com/tiryaq/laravel-assets/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Quality Score](https://img.shields.io/scrutinizer/g/botble/laravel-assets.svg?style=flat-square)](https://scrutinizer-ci.com/g/botble/laravel-assets)
+[![Quality Score](https://img.shields.io/scrutinizer/g/tiryaq/laravel-assets.svg?style=flat-square)](https://scrutinizer-ci.com/g/tiryaq/laravel-assets)
 [![StyleCI](https://styleci.io/repos/154250020/shield)](https://styleci.io/repos/154250020)
-[![Total Downloads](https://img.shields.io/packagist/dt/botble/assets.svg?style=flat-square)](https://packagist.org/packages/botble/assets)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a6e4612307e3b3bf8252/maintainability)](https://codeclimate.com/github/botble/laravel-assets/maintainability)
+[![Total Downloads](https://img.shields.io/packagist/dt/tiryaq/assets.svg?style=flat-square)](https://packagist.org/packages/tiryaq/assets)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a6e4612307e3b3bf8252/maintainability)](https://codeclimate.com/github/tiryaq/laravel-assets/maintainability)
 
 ## Installation
 
 ```bash
-composer require botble/assets
+composer require tiryaq/assets
 ```
 
 For version <= 5.4:
@@ -21,7 +21,7 @@ Add to section `providers` of `config/app.php`:
 // config/app.php
 'providers' => [
     ...
-    Botble\Assets\Providers\AssetsServiceProvider::class,
+    Tiryaq\Assets\Providers\AssetsServiceProvider::class,
 ];
 ```
 
@@ -31,14 +31,14 @@ And add to `aliases` section:
 // config/app.php
 'aliases' => [
     ...
-    'Assets' => Botble\Assets\Facades\AssetsFacade::class,
+    'Assets' => Tiryaq\Assets\Facades\AssetsFacade::class,
 ];
 ```
 
 All assets resource will be manage in config file so we need to publish config to use.
 
 ```bash
-php artisan vendor:publish --provider="Botble\Assets\Providers\AssetsServiceProvider" --tag=config
+php artisan vendor:publish --provider="Tiryaq\Assets\Providers\AssetsServiceProvider" --tag=config
 ```
 
 Add to your master layout view, in `head` tag:

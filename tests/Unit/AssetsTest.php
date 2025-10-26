@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\Assets\Tests\Unit;
+namespace Tiryaq\Assets\Tests\Unit;
 
-use Botble\Assets\Assets;
+use Tiryaq\Assets\Assets;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 
